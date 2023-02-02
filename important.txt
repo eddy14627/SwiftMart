@@ -1,0 +1,13 @@
+> all about axios 
+ - axios use to make http request form any API
+ - Axios is lightweight package and use to make
+   HTTP requests in Any Javascript Library like
+   React, Angular or Vue. Axios makes it easy to
+   send asynchronous HTTP requests to REST endpoints
+   and perform CRUD operations. If you use Fetch method
+   in Javascript, Axios is the “Easy to use” Version
+   of Fetch
+ - ref video : https://youtu.be/Gl-vOU7ZU9A
+ - ref article : https://www.thapatechnical.com/2022/08/complete-axios-in-15minutes.html
+
+ > what is cross-domain-error ????
