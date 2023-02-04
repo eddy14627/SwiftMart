@@ -11,3 +11,5 @@
  - ref article : https://www.thapatechnical.com/2022/08/complete-axios-in-15minutes.html
 
  > what is cross-domain-error ????
+
+ > all about reducers and how this works ???
