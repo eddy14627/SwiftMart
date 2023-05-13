@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
+import CartScreen from "./screens/CartScreen";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           {/* using "exact" keyword is important because otherwise it will redirect to HomeScreen whenever search for path "/* or "/anything" etc.*/}
           <Route path="/" component={HomeScreen} exact />
           <Route path="/product/:id" component={ProductScreen} />
+          {/* "?" is used here because "id?" , id is optional because we can go to cart by just clicking on cart button present in header also */}
+          <Route path="/cart/:id?" component={CartScreen} />
         </Container>
       </main>
       <Footer />

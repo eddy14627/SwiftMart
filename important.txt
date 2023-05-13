@@ -13,3 +13,16 @@
  > what is cross-domain-error ????
 
  > all about reducers and how this works ???
+
+ >  const fetchProducts = async () => {
+      const { data } = await axios.get("/api/products");
+      setProducts(data);
+    }; 
+    here we want to fetch data from http://localhost:5000
+    but if we do then it will cause "cross domain error"
+    because when we don't give any "localhost" in this case it
+    will request from "localhost" of current domain which is
+    "localhost:3000" so to avoid "cross domain error" we setup
+    proxy in package.json
+
+> can await be used without async function ????
